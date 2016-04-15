@@ -1,0 +1,176 @@
+body{
+	padding:0;
+	margin:0;
+	border:-1em;
+}
+.banner{
+
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	background-image: url('https://images.unsplash.com/photo-1437652010333-fbf2cd02a4f8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2330269f135faf1c33bf613b85d5f1df');
+	background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover;
+	margin-top: -1.5em;
+	overflow:hidden;
+	border-bottom: solid 2em #251A01;
+
+}
+
+.banner > h1{
+	color:#8f7602;
+	float: right;
+	padding-right: 7em;
+	padding-top: 5em;
+
+}
+
+.banner > ul{
+	list-style-type: none;
+	float:right;
+	padding-right:1.5em;
+	padding-top:25em;
+
+}
+
+ .banner> ul > li{
+ 	display:inline;
+ 	padding-left:.35em;
+ 	padding-right:.35em;
+ 	padding-top:.40em;
+ 	margin:.25em;
+ 	float:center;
+ 	background-color: #5C4901;
+ 	color:#4c6d8d;
+ 	border:.1em solid black;
+}
+
+.banner> ul > li > a{
+	text-decoration:none;
+	letter-spacing: .25em;
+	color:#4c6d8d;
+
+}
+ .banner> ul > li > a.visited{
+	text-decoration:none;
+	color:#4c6d8d;
+
+}
+
+.banner> ul > li > a.hover{
+	text-decoration:none;
+	letter-spacing: .5em;
+
+}
+
+.banner> ul > li > a.active{
+	text-decoration:none;
+
+}
+
+
+
+/* ________________THIS _______________IS _A_ BREAK______________FROM__________TOP__________________________________*/
+
+.info{
+	border-top: solid 2em #4C6D8D;
+	border-bottom: solid 2em #4C6D8D;
+	background-color: #EFE2CF;
+
+}
+
+.info > h1{
+	float:left;
+	padding-left: 3em;
+	color:#8f7602;
+}
+
+.info > p{
+	color:#251A01;
+	float:center;
+	padding-left: 1em;
+	padding-right:7em;
+}
+
+.pa{
+	float:left;
+	margin-right: 39em;
+	margin-left: 3em;
+	margin-top: 5em;
+}
+
+.i {
+	float:right;
+	margin-bottom: 4em;
+}
+
+.i2{
+	width: 25%;
+}
+
+
+/*___THIS____IS_____A BREAK______FOR___THE________FOOTER____________________________*/
+
+.footer{
+	background-color:#251A01;
+	border:solid 1em #4C6D8D; 
+	float:bottom;
+}
+
+.footer > h3{
+	color:#EFE2CF;
+	text-align: center;
+}
+
+.footer > ul{
+	text-align:center;
+
+}
+
+.footer > ul > li{
+	color:#EFE2CF;
+	display: inline;
+	text-decoration: none;
+}
+
+.footer > ul > li > a{
+	color:#EFE2CF;
+	display: inline;
+	text-decoration: none;
+}
+
+.footer > ul > li > a{
+	color:#EFE2CF;
+	display: inline;
+	text-decoration: none;
+}
+
+.footer > ul > li > a.visited{
+	color:#EFE2CF;
+	display: inline;
+	text-decoration: none;
+}
+
+.footer > ul > li > a.hover{
+	color:#EFE2CF;
+	display: inline;
+	text-decoration: none;
+	letter-spacing: .5em;
+}
+
+.footer > ul > li > a.active{
+	color:#EFE2CF;
+	display: inline;
+	text-decoration: none;
+}
+
+
+/*______________________STILLS______________________PAGE*/
+
+
+.album table{
+	
+}
