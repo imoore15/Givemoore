@@ -1,176 +1,325 @@
+html, body{
+	height:100%;
+}
 body{
 	padding:0;
-	margin:0;
-	border:-1em;
-}
-.banner{
+	margin:-.1em;
+	height: 100%;
 
-	width:100%;
-	height:100%;
-	margin:0px;
-	padding:0px;
-	background-image: url('https://images.unsplash.com/photo-1437652010333-fbf2cd02a4f8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2330269f135faf1c33bf613b85d5f1df');
-	background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-webkit-background-size:cover;
-	margin-top: -1.5em;
-	overflow:hidden;
-	border-bottom: solid 2em #251A01;
-
-}
-
-.banner > h1{
-	color:#8f7602;
-	float: right;
-	padding-right: 7em;
-	padding-top: 5em;
-
-}
-
-.banner > ul{
-	list-style-type: none;
-	float:right;
-	padding-right:1.5em;
-	padding-top:25em;
-
-}
-
- .banner> ul > li{
- 	display:inline;
- 	padding-left:.35em;
- 	padding-right:.35em;
- 	padding-top:.40em;
- 	margin:.25em;
- 	float:center;
- 	background-color: #5C4901;
- 	color:#4c6d8d;
- 	border:.1em solid black;
-}
-
-.banner> ul > li > a{
-	text-decoration:none;
-	letter-spacing: .25em;
-	color:#4c6d8d;
-
-}
- .banner> ul > li > a.visited{
-	text-decoration:none;
-	color:#4c6d8d;
-
-}
-
-.banner> ul > li > a.hover{
-	text-decoration:none;
-	letter-spacing: .5em;
-
-}
-
-.banner> ul > li > a.active{
-	text-decoration:none;
-
-}
-
-
-
-/* ________________THIS _______________IS _A_ BREAK______________FROM__________TOP__________________________________*/
-
-.info{
-	border-top: solid 2em #4C6D8D;
-	border-bottom: solid 2em #4C6D8D;
-	background-color: #EFE2CF;
-
-}
-
-.info > h1{
-	float:left;
-	padding-left: 3em;
-	color:#8f7602;
-}
-
-.info > p{
-	color:#251A01;
-	float:center;
-	padding-left: 1em;
-	padding-right:7em;
-}
-
-.pa{
-	float:left;
-	margin-right: 39em;
-	margin-left: 3em;
-	margin-top: 5em;
-}
-
-.i {
-	float:right;
-	margin-bottom: 4em;
-}
-
-.i2{
-	width: 25%;
-}
-
-
-/*___THIS____IS_____A BREAK______FOR___THE________FOOTER____________________________*/
-
-.footer{
-	background-color:#251A01;
-	border:solid 1em #4C6D8D; 
-	float:bottom;
-}
-
-.footer > h3{
-	color:#EFE2CF;
-	text-align: center;
-}
-
-.footer > ul{
-	text-align:center;
-
-}
-
-.footer > ul > li{
-	color:#EFE2CF;
-	display: inline;
-	text-decoration: none;
-}
-
-.footer > ul > li > a{
-	color:#EFE2CF;
-	display: inline;
-	text-decoration: none;
-}
-
-.footer > ul > li > a{
-	color:#EFE2CF;
-	display: inline;
-	text-decoration: none;
-}
-
-.footer > ul > li > a.visited{
-	color:#EFE2CF;
-	display: inline;
-	text-decoration: none;
-}
-
-.footer > ul > li > a.hover{
-	color:#EFE2CF;
-	display: inline;
-	text-decoration: none;
-	letter-spacing: .5em;
-}
-
-.footer > ul > li > a.active{
-	color:#EFE2CF;
-	display: inline;
-	text-decoration: none;
-}
-
-
-/*______________________STILLS______________________PAGE*/
-
-
-.album table{
 	
 }
+
+#front-display {
+	background-image:url("../images/bbb.jpe");
+	height: 100%;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+#adventure-display{
+
+	background-image:url("../images/adv.jpe");
+	height: 85%;
+	background-position: 50% 50%;
+	background-size: cover;
+
+}
+
+#adventure-title {
+	background-color: #C3c2b4;
+	border: 9px solid #567002;
+	color: #0b1516;
+	opacity: 0.80;
+	margin-right: 70%;
+	margin-left: 10%;
+	margin-top:5%;
+	text-align:center;
+	border-radius: .25em;
+	font-family: "Oswald", sans-serif;
+}
+
+#about-head{
+	background-image:url("../images/about.jpe");
+	height: 110%;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+#about-title{
+	position: fixed;
+    border: 5px solid #86a8f0;
+    padding: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    border-radius: 1.5em;
+    margin-left: 1em;
+    margin-top: 2em;
+    background-color: #b9c9f4;
+    color: rgb(78,92,0);
+    opacity: 0.85;
+    font-family: "Cantarell";
+    z-index: 999;
+}
+
+#about-bulk{
+	text-align: right;
+	padding-left:25em;
+	padding-top:15em;
+	padding-right:5em;
+	background-color: #86a8f0;
+	color:rgb(28,36,0);
+
+}
+
+#name-display{
+	background-color: white;
+	height: 75%;
+	background-position: 50% 50%;
+	background-size: cover;
+	padding-left:0em;
+	padding-right:0em;
+}
+
+#pic-cont{
+	background-image:url("../images/bbb.jpe");
+	height:100%;
+	background-size: 365% 310%;
+	background-position: 0% 100%;
+}
+
+#pic-conts{
+	background-image:url("../images/bbb.jpe");
+	height:100%;
+	background-size:330% 100%;
+	background-position: 100% 100%;
+}
+
+#name{
+	background-color: #0599c1;
+	color: white;
+	padding-top:2em;
+	padding-left:15em;
+	text-align: right;
+	height:100%;
+	border: 2em solid rgb(1,79,92);
+	letter-spacing: .5em;
+
+}
+
+#name p{
+	letter-spacing: .2em;
+}
+
+#big {
+	color: #8b4a25;
+	text-align:center;
+	border:2px solid #038ac1;
+	border-radius:.15em;
+	margin-top:7em;
+	padding-top:.5em;
+	padding-bottom:.5em;
+}
+
+#score{
+	height:75%;
+	padding: 0em;
+	
+
+}
+
+
+
+#space{
+	height:105%;
+	background: -webkit-linear-gradient(left top, #35172d, #361220, #093849);
+
+}
+
+#spaces{
+	height:105%;
+	background: -webkit-linear-gradient(right top,  #35172d, #361220, #093849);
+
+
+}
+
+#number{
+	height:105%;
+	background-color: #351f2d;
+	padding: 1em;
+	color: #0599c1;
+	text-align: center;
+
+}
+
+#adventure-bar {
+	background-color: #c08a0f;
+
+
+}
+
+.nav-pills a{
+	color: #850802;
+}
+
+
+#adventure-info {
+	background-color: #f7bb1e;
+}
+
+#search-maps{
+	height: 580px;
+}
+
+
+#rafting{
+padding: 3em;
+}
+
+#rafting-words{
+	padding:3em;
+	text-align: right;
+	color:#850802;
+	margin-top: 1em;
+	font-family: "Cabin", sans-serif;
+}
+
+#travel{
+	padding: 3em;
+
+}
+
+#travel-words{
+	padding:3em;
+	text-align: left;
+	color:#850802;
+	margin-top: 1em;
+	font-family: "Cabin", sans-serif;
+
+}
+
+#whitewater{
+	padding:3em;
+
+}
+
+#whitewater-words{
+	padding:3em;
+	text-align: right;
+	color:#850802;
+	margin-top: 1em;
+	font-family: "Cabin", sans-serif;
+
+
+}
+
+#search{
+	background: -webkit-linear-gradient(top, #f7bb1e, #730d00);
+	padding-bottom:18em;
+
+}
+
+#search-words{
+	padding:3em;
+	text-align: left;
+	color:#850802;
+	margin-top: 1em;
+	font-family: "Cabin", sans-serif;
+}
+
+
+
+#footer{
+	background: -webkit-linear-gradient(bottom, #231426, #035273);
+	height: 55%;
+	color:white;
+	text-align: center;
+	padding-top: 3em;
+	text-decoration: none;
+
+
+}
+
+#footer a{
+	text-decoration: none;
+	color: white ;
+}
+
+#footer a:hover{
+	color: #0599c1;
+}
+
+#footera{
+	padding-bottom: 40em;
+	padding-top:10em;
+	padding-left: 0em;
+	padding-right:0em;
+	background: -webkit-linear-gradient(top, #730d00, black);
+	color:#f7bb1e;
+	text-align: center;
+
+}
+
+#thanks {
+	padding-right: 10em;
+	padding-left: 5em;
+	padding-top: 15em;
+
+}
+
+#links{
+	display: block;
+	padding-left: 10em;
+	padding-right:10em;
+
+}
+
+.alpha{
+	margin-bottom: 2em;
+	margin-right: -5em;
+}
+
+#stills-header{
+	color: black;
+	font-family: "Courgette", sans-serif;
+	text-shadow: 1px 1px black;
+	letter-spacing:1em;
+}
+
+.thumbnails{
+	margin: 1em;
+	width:100%;
+	height:100%;
+
+
+}
+
+.thumbnails:hover {
+	position:relative;
+	width: auto;
+	height: auto;
+    border: 10px solid black;
+    display: inline-block;
+    z-index: 999;
+
+}
+
+.thumbnail{
+	width:100%;
+	height:100%;
+
+}
+
+
+.thumbnail:hover {
+    position:relative;
+    width:400px;
+    height:auto;
+    border: 10px solid black;
+    display: inline-block;
+    z-index: 999;
+
+  }
+
+  .real-old{
+  	display: none;
+  }
