@@ -229,7 +229,7 @@ padding: 3em;
 
 
 #footer{
-	background: -webkit-linear-gradient(bottom, #231426, #035273);
+	background: -webkit-linear-gradient(top, #231426, #035273);
 	height: 55%;
 	color:white;
 	text-align: center;
