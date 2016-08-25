@@ -268,14 +268,14 @@ padding: 3em;
 
 #links{
 	display: block;
-	padding-left: 10em;
+	
 	padding-right:10em;
 
 }
 
 .alpha{
-	margin-bottom: 2em;
-	margin-right: -5em;
+	margin-bottom: 4em;
+	margin-top: 1em;
 }
 
 #stills-header{
